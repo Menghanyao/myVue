@@ -1,0 +1,305 @@
+{
+  "users": [
+    {
+      "name": "luffy",
+      "gender": "male",
+      "phone": "135-1234-5678",
+      "password": "123456",
+      "type": "车主",
+      "id": "1",
+      "name3": "luffy"
+    },
+    {
+      "name": "zero",
+      "gender": "male",
+      "phone": "136-7890-5432",
+      "password": "123456",
+      "type": "保险公司",
+      "id": "2",
+      "name3": "luffy"
+    },
+    {
+      "name": "nami",
+      "phone": "110110110",
+      "password": "123456",
+      "type": "交警",
+      "name3": "luffy",
+      "gender": "female",
+      "id": "3"
+    },
+    {
+      "name": "robin",
+      "gender": "female",
+      "phone": "136-7890-5432",
+      "password": "123456",
+      "type": "交警",
+      "id": "4"
+    },
+    {
+      "name": "刘曜华",
+      "phone": "123123123",
+      "gender": "男",
+      "password": "321",
+      "type": "交警",
+      "id": "BCqj9TG"
+    },
+    {
+      "name": "董海斌",
+      "phone": "113",
+      "gender": "男",
+      "password": "321",
+      "type": "保险公司",
+      "id": "1ELBRc5"
+    },
+    {
+      "name": "大美女",
+      "phone": "12306",
+      "gender": "女",
+      "password": "321",
+      "type": "车主",
+      "id": "2DktuDz"
+    },
+    {
+      "name": "赵昊",
+      "phone": "110",
+      "gender": "男",
+      "password": "123",
+      "type": "车主",
+      "id": "ASwYr8k"
+    },
+    {
+      "name": "保险哥1号",
+      "phone": "12312",
+      "gender": "男",
+      "password": "321",
+      "type": "保险公司",
+      "id": "f8HuEnv"
+    }
+  ],
+  "cars": [
+    {
+      "id": "1",
+      "number": "京A12345",
+      "name": "红旗国王",
+      "age": "10",
+      "ownerId": "2DktuDz",
+      "insuranceId": ""
+    },
+    {
+      "ownerId": "2DktuDz",
+      "number": "浙A12345",
+      "name": "保时捷911",
+      "age": "2",
+      "id": "DRUb95c"
+    },
+    {
+      "ownerId": "2DktuDz",
+      "number": "浙B56789",
+      "name": "五菱宏光",
+      "age": "1",
+      "id": "SQ4lT0v",
+      "insuranceId": "全年保险"
+    },
+    {
+      "ownerId": "2DktuDz",
+      "number": "浙A11111",
+      "name": "奥迪A8",
+      "age": "5",
+      "id": "bb_dFXz",
+      "insuranceId": ""
+    },
+    {
+      "ownerId": "ASwYr8k",
+      "number": "浙A00001",
+      "name": "奔驰",
+      "age": "1",
+      "id": "BYsG6xA"
+    },
+    {
+      "ownerId": "2DktuDz",
+      "number": "浙A22222",
+      "name": "日产GTR",
+      "age": "3",
+      "id": "bdmWEG_",
+      "insuranceId": "涉水险"
+    },
+    {
+      "ownerId": "ASwYr8k",
+      "number": "沪A12321",
+      "name": "大众辉腾",
+      "age": "2",
+      "id": "jSdVmIo",
+      "insuranceId": "交强险"
+    },
+    {
+      "ownerId": "2DktuDz",
+      "number": "123",
+      "name": "abc",
+      "age": "1",
+      "id": "apm6TvQ"
+    }
+  ],
+  "insurances": [
+    {
+      "id": "1",
+      "number": "001",
+      "name": "全险",
+      "duration": "2",
+      "companyId": "1ELBRc5",
+      "companyName": "董海斌",
+      "companyPhone": "113",
+      "price": "1080",
+      "compensation": "200000",
+      "state": "在售"
+    },
+    {
+      "id": "2",
+      "number": "002",
+      "name": "交强险",
+      "duration": "1",
+      "companyId": "1ELBRc5",
+      "companyName": "董海斌",
+      "companyPhone": "113",
+      "price": "200",
+      "compensation": "4000",
+      "state": "在售"
+    },
+    {
+      "companyId": "1ELBRc5",
+      "companyName": "董海斌",
+      "companyPhone": "113",
+      "number": "003",
+      "name": "涉水险",
+      "duration": "5",
+      "price": "600",
+      "compensation": "8000",
+      "id": "IcMcz19",
+      "state": "在售"
+    },
+    {
+      "companyId": "f8HuEnv",
+      "companyName": "保险哥1号",
+      "companyPhone": "12312",
+      "state": "在售",
+      "number": "356",
+      "name": "全年保险",
+      "duration": "1",
+      "price": "1000",
+      "compensation": "88888",
+      "id": "HfazX4M"
+    },
+    {
+      "companyId": "f8HuEnv",
+      "companyName": "保险哥1号",
+      "companyPhone": "12312",
+      "state": "在售",
+      "number": "355",
+      "name": "保险哥1号的2号产品",
+      "duration": "3",
+      "price": "365",
+      "compensation": "3650",
+      "id": "KFJdSK0"
+    },
+    {
+      "companyId": "f8HuEnv",
+      "companyName": "保险哥1号",
+      "companyPhone": "12312",
+      "state": "在售",
+      "number": "233",
+      "name": "随便险",
+      "duration": "1",
+      "price": "1000",
+      "compensation": "100000",
+      "id": "1U36XOM"
+    }
+  ],
+  "buyRecords": [
+    {
+      "buyerId": "2DktuDz",
+      "buyerName": "大美女",
+      "buyerPhone": "12306",
+      "carAge": "1",
+      "carId": "SQ4lT0v",
+      "carName": "五菱宏光",
+      "carNumber": "浙B56789",
+      "companyId": "f8HuEnv",
+      "companyName": "保险哥1号",
+      "companyPhone": "12312",
+      "insuranceCompensation": "88888",
+      "insuranceDuration": "1",
+      "insuranceId": "HfazX4M",
+      "insuranceName": "全年保险",
+      "insuranceNumber": "356",
+      "insurancePrice": "1000",
+      "overtime": "2020-3-16",
+      "state": "待确认",
+      "id": "1"
+    },
+    {
+      "buyerId": "2DktuDz",
+      "buyerName": "大美女",
+      "buyerPhone": "12306",
+      "carId": "bdmWEG_",
+      "carNumber": "浙A22222",
+      "carName": "日产GTR",
+      "carAge": "3",
+      "companyId": "1ELBRc5",
+      "companyName": "董海斌",
+      "companyPhone": "113",
+      "insuranceId": "IcMcz19",
+      "insuranceNumber": "003",
+      "insuranceName": "涉水险",
+      "insuranceDuration": "5",
+      "insurancePrice": "600",
+      "insuranceCompensation": "8000",
+      "overtime": "2024-3-16",
+      "state": "已同意",
+      "id": "67O_vjO"
+    },
+    {
+      "buyerId": "ASwYr8k",
+      "buyerName": "赵昊",
+      "buyerPhone": "110",
+      "carId": "jSdVmIo",
+      "carNumber": "沪A12321",
+      "carName": "大众辉腾",
+      "carAge": "2",
+      "companyId": "1ELBRc5",
+      "companyName": "董海斌",
+      "companyPhone": "113",
+      "insuranceId": "2",
+      "insuranceNumber": "002",
+      "insuranceName": "交强险",
+      "insuranceDuration": "1",
+      "insurancePrice": "200",
+      "insuranceCompensation": "4000",
+      "overtime": "2020-3-16",
+      "state": "待确认",
+      "id": "25Op3C8"
+    }
+  ],
+  "accidents": [
+    {
+      "id": "1",
+      "carName": "日产GTR",
+      "carId": "浙A22222",
+      "time": "2019-03-15",
+      "site": "XX小区",
+      "weather": "晴天",
+      "roadLevel": "小区内道路",
+      "roadSituation": "平坦",
+      "trafficSituation": "畅通",
+      "damage": "擦碰",
+      "speed": "0",
+      "acceleration": "0",
+      "alcoholDetection": "no",
+      "ownerId": "2DktuDz",
+      "companyId": "1ELBRc5",
+      "policeId": "",
+      "policeName": "",
+      "policePhone": "",
+      "responsibility": "等待处理",
+      "insuranceRecordId": "67O_vjO"
+    }
+  ]
+}
